@@ -2,15 +2,17 @@
 import React from 'react';
 import { Search, Filter, Plus } from 'lucide-react';
 
+const SHARED_IMAGE = 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop';
+
 const products = [
-  { id: 'HW-001', name: 'Classic Palm Aloha', category: 'Rayon', image: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-002', name: 'Sunset Hibiscus', category: 'Cotton', image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-003', name: 'Vintage Surf', category: 'Silk Blend', image: 'https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-004', name: 'Midnight Flora', category: 'Rayon', image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-005', name: 'Ocean Breeze', category: 'Linen', image: 'https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-006', name: 'Retro Pineapple', category: 'Cotton', image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-007', name: 'Island Hopper', category: 'Rayon', image: 'https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?q=80&w=800&auto=format&fit=crop' },
-  { id: 'HW-008', name: 'Coral Reef', category: 'Silk', image: 'https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=800&auto=format&fit=crop' },
+  { id: 'HW-001', name: 'Classic Palm Aloha', category: 'Rayon', image: SHARED_IMAGE },
+  { id: 'HW-002', name: 'Sunset Hibiscus', category: 'Cotton', image: SHARED_IMAGE },
+  { id: 'HW-003', name: 'Vintage Surf', category: 'Silk Blend', image: SHARED_IMAGE },
+  { id: 'HW-004', name: 'Midnight Flora', category: 'Rayon', image: SHARED_IMAGE },
+  { id: 'HW-005', name: 'Ocean Breeze', category: 'Linen', image: SHARED_IMAGE },
+  { id: 'HW-006', name: 'Retro Pineapple', category: 'Cotton', image: SHARED_IMAGE },
+  { id: 'HW-007', name: 'Island Hopper', category: 'Rayon', image: SHARED_IMAGE },
+  { id: 'HW-008', name: 'Coral Reef', category: 'Silk', image: SHARED_IMAGE },
 ];
 
 export default function ProductCatalogView() {
