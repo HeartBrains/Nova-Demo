@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ZoomIn, ZoomOut, Maximize, Send } from 'lucide-react';
 
@@ -39,7 +40,7 @@ export default function DesignCollabView() {
           </div>
           
           <div className="w-full h-full max-h-[80vh] aspect-square rounded-xl shadow-2xl overflow-hidden border border-white/5 relative">
-             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuABx2UfmMaawaPMt6kZEJgdS33NY_kLYNVZP4ofvyHpfjVzDGjLzbRg0ZqqJTiuC4cDuwFjoDAivIMWw6hTEONjArp3KVBF4INUWEoOLjBGim6a-dGNi_UQ5KFOYX2JSXzAjUHDbjOSa5uLwiSyB8ig2TBf9m_4WkfUn4aYoh_VzDSswDpoQPL4FJLwlQLlwRr_1UQ6UdqZIXclcK2RenPpsA295vIo3bAaUigMKpcrNO9otopYXwTOICuStSBnYxeHBYtgjdv_irY" className="w-full h-full object-contain" />
+             <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop" className="w-full h-full object-contain" />
           </div>
        </main>
 
@@ -77,7 +78,7 @@ export default function DesignCollabView() {
             </div>
           </div>
 
-          <div className="p-4 bg-dark-900 border-t border-white/5">
+          <div className="p-4 pb-12 bg-dark-900 border-t border-white/5">
              <div className="relative mb-4">
                 <input type="text" placeholder="Type feedback here..." className="w-full bg-dark-800 border border-white/10 rounded-lg pl-4 pr-10 py-2 text-sm text-white focus:border-primary/50 focus:outline-none" />
                 <button className="absolute right-2 top-1/2 -translate-y-1/2 text-primary hover:text-white transition"><Send size={16}/></button>
